@@ -6,7 +6,7 @@ Bot = commands.Bot(command_prefix='!!!', intents = discord.Intents.all())
 
 @Bot.event
 async def on_ready():
-    guild = Bot.get_guild(783723833877069874)
+    guild = Bot.get_guild()
     bans = [entry async for entry in guild.bans(limit=2000)]
     for user in bans:
         await guild.unban(user.user)
