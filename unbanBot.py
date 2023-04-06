@@ -13,4 +13,4 @@ async def on_ready():
         print(f'USER UNBANED\t{user.user.name}')
 
 
-Bot.run('NzgzNDQwMzA2MTI0NzUwODU4.Gieeg6.ySMENmpR0jRvzunOdMesHfFsVNQl6L82uN8PYw')
+Bot.run("TOKEN")
